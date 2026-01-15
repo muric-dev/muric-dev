@@ -66,7 +66,7 @@ Currently based in **France 🌍**, I specialize in taking apps from `git init` 
 ### 🎧 Vibe Check
 
 <div align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=muric-dev&cover_image=true&theme=novatorem&bar_color=FF6B4A&bar_color_cover=false">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=muric-dev&cover_image=true&theme=novatorem&bar_color=FF6B4A&bar_color_cover=false" alt="Spotify Now Playing" width="400" />
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=marksfrancom&cover_image=true&theme=novatorem&bar_color=FF6B4A&bar_color_cover=false">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=marksfrancom&cover_image=true&theme=novatorem&bar_color=FF6B4A&bar_color_cover=false" alt="Spotify Now Playing" width="400" />
   </a>
 </div>
