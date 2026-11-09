@@ -1,0 +1,128 @@
+<svg width="854" height="170" viewBox="0 0 854 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0F13" />
+      <stop offset="60%" stop-color="#16181D" />
+      <stop offset="100%" stop-color="#221319" />
+    </linearGradient>
+    <linearGradient id="waveCrimson" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A1C2A" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#D85367" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#B08A4A" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="waveGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B08A4A" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#7A1C2A" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#0E0F13" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E0F13" stop-opacity="0" />
+      <stop offset="25%" stop-color="#7A1C2A" />
+      <stop offset="50%" stop-color="#B08A4A" />
+      <stop offset="75%" stop-color="#D85367" />
+      <stop offset="100%" stop-color="#0E0F13" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title {
+      font-family: Georgia, 'Fraunces', 'Times New Roman', serif;
+      font-size: 36px;
+      font-weight: 600;
+      fill: #F5F2EC;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #B08A4A;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .kicker {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      fill: #A19E97;
+    }
+    .eq-bar {
+      fill: #B08A4A;
+      opacity: 0.7;
+      transform-origin: center;
+      animation: eqPulse 1.4s ease-in-out infinite alternate;
+    }
+    .eq-bar.c { fill: #D85367; }
+    .d1 { animation-delay: 0.1s; }
+    .d2 { animation-delay: 0.3s; }
+    .d3 { animation-delay: 0.5s; }
+    .d4 { animation-delay: 0.2s; }
+    .d5 { animation-delay: 0.4s; }
+    @keyframes eqPulse {
+      0% { transform: scaleY(0.4); opacity: 0.45; }
+      100% { transform: scaleY(1); opacity: 0.9; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .eq-bar { animation: none; }
+    }
+  </style>
+
+  <!-- Main Card / Wave Background with valid static 'd' fallback + smooth SMIL animation -->
+  <path d="M 0 0 L 854 0 L 854 132 Q 640 164 427 140 T 0 148 Z" fill="url(#bgGrad)">
+    <animate
+      attributeName="d"
+      dur="14s"
+      repeatCount="indefinite"
+      values="
+        M 0 0 L 854 0 L 854 132 Q 640 164 427 140 T 0 148 Z;
+        M 0 0 L 854 0 L 854 146 Q 640 122 427 146 T 0 132 Z;
+        M 0 0 L 854 0 L 854 132 Q 640 164 427 140 T 0 148 Z" />
+  </path>
+
+  <!-- Secondary Flowing Wave Layer (Gold/Burgundy) -->
+  <path d="M 0 110 Q 213 150 427 124 T 854 136 L 854 152 Q 640 168 427 144 T 0 154 Z" fill="url(#waveGold)">
+    <animate
+      attributeName="d"
+      dur="10s"
+      repeatCount="indefinite"
+      values="
+        M 0 110 Q 213 150 427 124 T 854 136 L 854 152 Q 640 168 427 144 T 0 154 Z;
+        M 0 126 Q 213 104 427 134 T 854 120 L 854 144 Q 640 128 427 152 T 0 138 Z;
+        M 0 110 Q 213 150 427 124 T 854 136 L 854 152 Q 640 168 427 144 T 0 154 Z" />
+  </path>
+
+  <!-- Foreground Harmonic Ribbon Wave -->
+  <path d="M 0 128 Q 213 102 427 132 T 854 118 L 854 134 Q 640 158 427 138 T 0 146 Z" fill="url(#waveCrimson)">
+    <animate
+      attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      values="
+        M 0 128 Q 213 102 427 132 T 854 118 L 854 134 Q 640 158 427 138 T 0 146 Z;
+        M 0 116 Q 213 144 427 118 T 854 136 L 854 148 Q 640 124 427 144 T 0 132 Z;
+        M 0 128 Q 213 102 427 132 T 854 118 L 854 134 Q 640 158 427 138 T 0 146 Z" />
+  </path>
+
+  <!-- Top Subtle Studio Hairline -->
+  <rect x="0" y="0" width="854" height="2" fill="url(#accentLine)" />
+
+  <!-- Subtle Left & Right Mini Studio Equalizers -->
+  <g transform="translate(155, 42)">
+    <rect x="0"  y="8" width="2.5" height="12" rx="1.25" class="eq-bar d1" />
+    <rect x="6"  y="3" width="2.5" height="22" rx="1.25" class="eq-bar c d2" />
+    <rect x="12" y="6" width="2.5" height="16" rx="1.25" class="eq-bar d3" />
+    <rect x="18" y="1" width="2.5" height="26" rx="1.25" class="eq-bar c d4" />
+    <rect x="24" y="7" width="2.5" height="14" rx="1.25" class="eq-bar d5" />
+  </g>
+
+  <g transform="translate(670, 42)">
+    <rect x="0"  y="7" width="2.5" height="14" rx="1.25" class="eq-bar d5" />
+    <rect x="6"  y="1" width="2.5" height="26" rx="1.25" class="eq-bar c d4" />
+    <rect x="12" y="6" width="2.5" height="16" rx="1.25" class="eq-bar d3" />
+    <rect x="18" y="3" width="2.5" height="22" rx="1.25" class="eq-bar c d2" />
+    <rect x="24" y="8" width="2.5" height="12" rx="1.25" class="eq-bar d1" />
+  </g>
+
+  <!-- Center Text Stack -->
+  <text x="427" y="64" text-anchor="middle" class="title">Hey there, I’m Marco</text>
+  <text x="427" y="94" text-anchor="middle" class="subtitle">Flutter · AI Workflows · Go · Music</text>
+</svg>

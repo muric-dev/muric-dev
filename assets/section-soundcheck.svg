@@ -1,0 +1,45 @@
+<svg width="840" height="58" viewBox="0 0 840 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke: #2A2B31; stroke-width: 1; }
+    .kicker {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 10px;
+      font-weight: 600;
+      fill: #D85367;
+      letter-spacing: 2.5px;
+    }
+    .title {
+      font-family: Georgia, 'Fraunces', 'Times New Roman', serif;
+      font-size: 22px;
+      font-weight: 600;
+      fill: #EDEAE4;
+    }
+    .bar {
+      transform-origin: center;
+      animation: pulse 1.4s ease-in-out infinite alternate;
+    }
+    .gold { fill: #B08A4A; }
+    .crimson { fill: #D85367; }
+    .b1 { animation-delay: 0.1s; }
+    .b2 { animation-delay: 0.3s; }
+    .b3 { animation-delay: 0.5s; }
+    @keyframes pulse {
+      0% { transform: scaleY(0.4); opacity: 0.6; }
+      100% { transform: scaleY(1); opacity: 1; }
+    }
+  </style>
+  <line x1="60" y1="34" x2="235" y2="34" class="line" />
+  <g transform="translate(248, 24)">
+    <rect x="0"  y="3" width="2.5" height="14" rx="1.25" class="bar gold b1" />
+    <rect x="6"  y="0" width="2.5" height="20" rx="1.25" class="bar crimson b2" />
+    <rect x="12" y="4" width="2.5" height="12" rx="1.25" class="bar gold b3" />
+  </g>
+  <text x="420" y="16" text-anchor="middle" class="kicker">SIDE B // 01 · MARCO MURIC</text>
+  <text x="420" y="41" text-anchor="middle" class="title">Soundcheck &amp; Demos</text>
+  <g transform="translate(578, 24)">
+    <rect x="0"  y="4" width="2.5" height="12" rx="1.25" class="bar gold b3" />
+    <rect x="6"  y="0" width="2.5" height="20" rx="1.25" class="bar crimson b2" />
+    <rect x="12" y="3" width="2.5" height="14" rx="1.25" class="bar gold b1" />
+  </g>
+  <line x1="605" y1="34" x2="780" y2="34" class="line" />
+</svg>

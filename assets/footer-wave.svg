@@ -1,0 +1,36 @@
+<svg width="854" height="75" viewBox="0 0 854 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0E0F13" />
+      <stop offset="50%" stop-color="#7A1C2A" />
+      <stop offset="100%" stop-color="#B08A4A" />
+    </linearGradient>
+    <linearGradient id="footerOverlay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B08A4A" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#D85367" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0E0F13" stop-opacity="0.85" />
+    </linearGradient>
+  </defs>
+
+  <path d="M 0 32 Q 213 6 427 28 T 854 18 L 854 75 L 0 75 Z" fill="url(#footerBg)" opacity="0.85">
+    <animate
+      attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      values="
+        M 0 32 Q 213 6 427 28 T 854 18 L 854 75 L 0 75 Z;
+        M 0 18 Q 213 42 427 20 T 854 34 L 854 75 L 0 75 Z;
+        M 0 32 Q 213 6 427 28 T 854 18 L 854 75 L 0 75 Z" />
+  </path>
+
+  <path d="M 0 44 Q 213 22 427 42 T 854 30 L 854 75 L 0 75 Z" fill="url(#footerOverlay)">
+    <animate
+      attributeName="d"
+      dur="10s"
+      repeatCount="indefinite"
+      values="
+        M 0 44 Q 213 22 427 42 T 854 30 L 854 75 L 0 75 Z;
+        M 0 30 Q 213 52 427 32 T 854 46 L 854 75 L 0 75 Z;
+        M 0 44 Q 213 22 427 42 T 854 30 L 854 75 L 0 75 Z" />
+  </path>
+</svg>

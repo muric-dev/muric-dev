@@ -1,0 +1,25 @@
+<svg width="840" height="58" viewBox="0 0 840 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke: #2A2B31; stroke-width: 1; }
+    .kicker {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 10px;
+      font-weight: 600;
+      fill: #D85367;
+      letter-spacing: 2.5px;
+    }
+    .title {
+      font-family: Georgia, 'Fraunces', 'Times New Roman', serif;
+      font-size: 22px;
+      font-weight: 600;
+      fill: #EDEAE4;
+    }
+    .dot { fill: #B08A4A; }
+  </style>
+  <line x1="60" y1="34" x2="272" y2="34" class="line" />
+  <circle cx="280" cy="34" r="2.5" class="dot" />
+  <text x="420" y="16" text-anchor="middle" class="kicker">SIDE A // 03 · PEDALBOARD</text>
+  <text x="420" y="41" text-anchor="middle" class="title">Tools &amp; Rig</text>
+  <circle cx="560" cy="34" r="2.5" class="dot" />
+  <line x1="568" y1="34" x2="780" y2="34" class="line" />
+</svg>

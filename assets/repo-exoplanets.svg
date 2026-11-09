@@ -1,0 +1,65 @@
+<svg width="410" height="175" viewBox="0 0 410 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #16181D; stroke: #2A2B31; stroke-width: 1; }
+    .accent { fill: #B08A4A; }
+    .num {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #B08A4A;
+      letter-spacing: 1px;
+    }
+    .kicker {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      fill: #A19E97;
+    }
+    .title {
+      font-family: Georgia, 'Fraunces', 'Times New Roman', serif;
+      font-size: 20px;
+      font-weight: 600;
+      fill: #F5F2EC;
+    }
+    .desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif;
+      font-size: 12.5px;
+      fill: #A19E97;
+    }
+    .tag-box { fill: #0E0F13; stroke: #2A2B31; stroke-width: 1; }
+    .tag-text {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      fill: #EDEAE4;
+    }
+    .arrow {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 14px;
+      fill: #B08A4A;
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="409" height="174" rx="6" class="bg" />
+  <rect x="0.5" y="0.5" width="4" height="174" rx="2" class="accent" />
+
+  <text x="22" y="28" class="num">03</text>
+  <text x="44" y="28" class="kicker">· MOBILE &amp; ASTRONOMY</text>
+  <text x="382" y="28" text-anchor="end" class="arrow">↗</text>
+
+  <text x="22" y="56" class="title">exoplanets</text>
+
+  <text x="22" y="82" class="desc">Flutter app for browsing discovered exoplanets, their</text>
+  <text x="22" y="100" class="desc">host star systems, planetary radii, and orbital</text>
+  <text x="22" y="118" class="desc">measurements from astronomical catalogs.</text>
+
+  <!-- Tags -->
+  <g transform="translate(22, 136)">
+    <rect x="0" y="0" width="64" height="22" rx="3" class="tag-box" />
+    <text x="32" y="15" text-anchor="middle" class="tag-text">Flutter</text>
+
+    <rect x="72" y="0" width="50" height="22" rx="3" class="tag-box" />
+    <text x="97" y="15" text-anchor="middle" class="tag-text">Dart</text>
+
+    <rect x="130" y="0" width="80" height="22" rx="3" class="tag-box" />
+    <text x="170" y="15" text-anchor="middle" class="tag-text">Astronomy</text>
+  </g>
+</svg>
