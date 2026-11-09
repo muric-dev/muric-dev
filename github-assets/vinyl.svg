@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" aria-hidden="true">
+<style>
+ .lbl{fill:#7A1C2A} .hole{fill:#F5F2EC}
+ @media (prefers-color-scheme: dark){.lbl{fill:#D85367} .hole{fill:#0E0F13}}
+ .spin{transform-origin:center;transform-box:fill-box;animation:s 6s linear infinite}
+ @keyframes s{to{transform:rotate(360deg)}}
+ @media (prefers-reduced-motion: reduce){.spin{animation:none}}
+</style>
+<g class="spin"><circle cx="60.0" cy="60.0" r="58.0" fill="#111216"/>
+<circle cx="60.0" cy="60.0" r="56.0" fill="none" stroke="#2a2b31" stroke-opacity="0.35" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="52.4" fill="none" stroke="#2a2b31" stroke-opacity="0.35" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="48.8" fill="none" stroke="#2a2b31" stroke-opacity="0.75" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="45.1" fill="none" stroke="#2a2b31" stroke-opacity="0.75" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="41.5" fill="none" stroke="#2a2b31" stroke-opacity="0.35" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="37.9" fill="none" stroke="#2a2b31" stroke-opacity="0.35" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="34.2" fill="none" stroke="#2a2b31" stroke-opacity="0.35" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="30.6" fill="none" stroke="#2a2b31" stroke-opacity="0.75" stroke-width=".6"/>
+<circle cx="60.0" cy="60.0" r="27.0" fill="none" stroke="#2a2b31" stroke-opacity="0.75" stroke-width=".6"/>
+<path d="M60.0 4.0 A56.0 56.0 0 0 1 107.6 31.0" fill="none" stroke="#EDEAE4" stroke-opacity=".14" stroke-width="9.3"/>
+<circle class="lbl" cx="60.0" cy="60.0" r="22.0"/>
+<circle cx="60.0" cy="60.0" r="13.7" fill="none" stroke="#F5F2EC" stroke-opacity=".35" stroke-width=".8"/>
+<circle class="hole" cx="60.0" cy="60.0" r="2.4"/></g></svg>
